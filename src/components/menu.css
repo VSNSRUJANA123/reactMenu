@@ -1,0 +1,87 @@
+.mains {
+  padding: 10px;
+  background-color: rgb(33, 231, 221);
+}
+.title {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+.underline {
+  background-color: rgb(7, 44, 225);
+  width: 100px;
+  height: 3px;
+  border-radius: 3px;
+}
+.menus-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+.buttons-container {
+  text-align: center;
+}
+.buttons-container button {
+  margin: 7px;
+  padding: 6px;
+  width: 100px;
+  cursor: pointer;
+}
+.menu-container {
+  padding: 10px 7px;
+  display: flex;
+  align-items: center;
+}
+.menu-container .menu-description div {
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.spanComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-container img {
+  margin: 7px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.menuTitle {
+  font-size: 15px;
+}
+.menu-underline {
+  background-color: rgb(141, 141, 136);
+  height: 1.3px;
+  border: none;
+}
+.price {
+  font-weight: bold;
+}
+.desc {
+  font-size: 15px;
+}
+.rupeesicon {
+  font-size: 15px;
+  font-weight: bold;
+}
+@media (min-width: 600px) {
+  .menus-container {
+    display: flex;
+    padding: 12px;
+  }
+  .menu-container {
+    display: flex;
+    align-items: center;
+    width: calc(100% / 2);
+  }
+  .menuTitle {
+    font-size: 18px;
+  }
+}
